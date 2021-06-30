@@ -1,0 +1,19 @@
+.profile-container{
+  border: 1px solid black;
+  width: 30%;
+  margin: 0 auto;
+  h1{
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 3em;
+  }
+  .user-info{
+    margin: 0 auto;
+    width: fit-content;
+    .first-name , .last-name{
+      display: inline-block;
+      margin: 10px 50px;
+      font-size: 2em;
+    }
+  }
+}

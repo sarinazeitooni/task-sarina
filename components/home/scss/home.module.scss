@@ -1,0 +1,26 @@
+.home-body-container{
+  width: 700px;
+  font-family: iranYekan;
+  margin: 20px auto;
+  @media screen and (max-width: 600px){
+    width: 90%;
+    margin: 15px auto;
+  }
+}
+.login-container{
+  width: 100%;
+  direction: rtl;
+  text-align: right;
+  .login-btn {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 30px;
+    font-family: iranYekan;
+    margin: 0 33% 0 0;
+    @media screen and (max-width: 600px){
+      padding: 10px 80px;
+      margin: 10px 20%;
+      font-size: 1em;
+    }
+  }
+}

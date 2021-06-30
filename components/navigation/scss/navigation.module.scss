@@ -1,0 +1,23 @@
+.navigation{
+  font-family: iranYekan;
+  width: 450px;
+  border: 1px solid #444;
+  margin: 15px auto;
+  text-align: center;
+  @media screen and (max-width: 600px){
+    width: 100%;
+  }
+  a{
+    .navigation-items{
+      &:hover{
+        color: #444444;
+      }
+      @media screen and (max-width: 600px){
+        padding: 15px;
+      }
+      padding: 10px 30px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+  }
+}

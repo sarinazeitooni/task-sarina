@@ -1,0 +1,13 @@
+.btn {
+  text-align: center;
+  border: 1px solid black;
+  padding: 3px 20px;
+  cursor: pointer;
+  font-family: iranYekan;
+  display: block;
+  margin: 0 auto 20px auto;
+  @media screen and (max-width: 600px){
+    margin-top: 50px;
+    width: 56%;
+  }
+}
